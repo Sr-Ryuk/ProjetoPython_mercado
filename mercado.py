@@ -92,7 +92,7 @@ def comprar_produto() -> None:
                         print(f'O produto {produto.nome} agora possui {quant + 1} unidades no carrinho')
                         tem_no_carrinho = True
                         sleep(2)
-                        menu
+                        menu()
                 if not tem_no_carrinho:
                     prod = {produto:1}
                     carrinho.append(prod)
